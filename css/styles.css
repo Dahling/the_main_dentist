@@ -10,10 +10,6 @@
   border:1px dashed #000;
 }
 
-.columns {
-  /*min-height: 100px;*/
-}
-
 body {
   margin: 0;
   display: block;
@@ -23,7 +19,6 @@ body {
 .container {
  width: 100%;
  position: relative;
- /*height: 100%;*/
  margin: auto;
  border: 2px solid green;
 }
@@ -36,7 +31,9 @@ body {
   margin-left: 10%;
   position: absolute;
 }
-
+.topSec {
+  position: relative;
+}
 
 .header {
   border: 2px solid yellow;
@@ -44,14 +41,7 @@ body {
   color: black;
   width: 170px;
   height: 50px;
-  /*margin-top: 10%;
-  margin-left: 10%;*/
-  /*height: 4vh;*/
 }
-/*.header:after {
-
-}*/
-
 .nav {
 border: 2px solid blue;
 background-color: white;
@@ -66,7 +56,6 @@ font-size: 15px;
   margin-left: 2%;
 }
 
-
 .location {
   top: 45%;
   position: absolute;
@@ -74,22 +63,16 @@ font-size: 15px;
   text-align: left;
   margin-left: 5%;
 }
-/*.location:after {
-
-}*/
 
 .image {
   border: 2px solid teal;
-  width: 100%!important;
-  height: auto!important;
-  position: static!important;
-  z-index: 0!important;
-  visibility: visible!important;
-  display: block!important;
+  width: 100%;
+  height: auto;
+  position: static;
+  z-index: 0;
+  visibility: visible;
+  display: block;
   }
-/*.image:after {
-
-}*/
 
 .featuredProject {
   display: none;
@@ -99,14 +82,12 @@ font-size: 15px;
   border: 2px solid maroon;
   color: white;
   background-color: hotpink;
-  width: 50%!important;
-  /*height: auto!important;*/
-  position: static!important;
-  z-index: 0!important;
-  visibility: visible!important;
-  display: block!important;
+  width: 50%;
+  position: static;
+  z-index: 0;
+  visibility: visible;
+  display: block;
   float: left;
-  /*bottom: 0;*/
   height: 600px;
 }
 
@@ -148,12 +129,12 @@ font-size: 15px;
     background-color: black;
   }
   .image {
-    width: 100%!important;
-    height: auto!important;
-    position: static!important;
-    z-index: 0!important;
-    visibility: visible!important;
-    display: block!important;
+    width: 100%;
+    height: auto;
+    position: static;
+    z-index: 0;
+    visibility: visible;
+    display: block;
   }
   .featuredProject {
     border: 2px solid hotpink;
@@ -165,10 +146,7 @@ font-size: 15px;
     height: 2vh;
     font-size: 13px;
     color: #444;
-    width: 100%!important;
-
-
-    /*line-height: 34px;*/
+    width: 100%;
   }
   .nav li {
     display:inline;
@@ -182,32 +160,27 @@ font-size: 15px;
       margin-top: 15px;
   }
   .location {
-
     border: 2px solid pink;
     background-color: black;
     color: white;
-    width: 100%!important;
-    height: auto!important;
-    position: static!important;
-    z-index: 0!important;
-    visibility: visible!important;
-    display: block!important;
+    width: 100%;
+    height: auto;
+    position: static;
+    z-index: 0;
+    visibility: visible;
+    display: block;
     margin: 0;
-    /*border: 2px solid red;
-    color: white;
-    text-align: left;
-    height: 8vh;*/
   }
   .top {
     border: 2px solid pink;
     background-color: white;
     color: black;
-    width: 100%!important;
-    height: auto!important;
-    position: static!important;
-    z-index: 0!important;
-    visibility: visible!important;
-    display: block!important;
+    width: 100%;
+    height: auto;
+    position: static;
+    z-index: 0;
+    visibility: visible;
+    display: block;
     margin: 0;
 
   }
@@ -215,50 +188,31 @@ font-size: 15px;
     border: 2px solid pink;
     background-color: white;
     color: black;
-    width: 100%!important;
-    height: auto!important;
-    position: static!important;
-    z-index: 0!important;
-    visibility: visible!important;
-    display: block!important;
+    width: 100%;
+    height: auto;
+    position: static;
+    z-index: 0;
+    visibility: visible;
+    display: block;
     margin: 0;
     padding: 10px;
     margin-top: 12px;
-
   }
 .bio {
   border: 2px solid pink;
   background-color: white;
   color: black;
-  width: 100%!important;
-  height: auto!important;
-  position: static!important;
-  z-index: 0!important;
-  visibility: visible!important;
-  display: block!important;
+  width: 100%;
+  height: auto;
+  position: static;
+  z-index: 0;
+  visibility: visible;
+  display: block;
   margin: 0;
   padding: 10px;
   margin-top: 16px;
 
 }
 
-
-}
-
-@media screen and (max-width: 779px) {
-  body {
-    margin: 0;
-    /*padding: 3vw;*/
-    display: block;
-    background-color: black;
-  }
-  .image {
-    width: 100%!important;
-    height: auto!important;
-    position: static!important;
-    z-index: 0!important;
-    visibility: visible!important;
-    display: block!important;
-  }
 
 }
