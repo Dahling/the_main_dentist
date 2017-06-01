@@ -6,8 +6,8 @@
      box-sizing: border-box;
 }
 *:not(body):not(html) {
-  box-sizing:border-box;
-  border:1px dashed #000;
+  /*box-sizing:border-box;
+  border:1px dashed #000;*/
 }
 
 body {
@@ -18,37 +18,49 @@ body {
 
 .container {
  width: 100%;
- position: relative;
+ /*position: relative;*/
  margin: auto;
- border: 2px solid green;
+}
+
+li {
+  text-align: center;
+}
+
+.beth {
+  position: relative;
+}
+
+.location {
+  top: 450px;
+  position: absolute;
+  color: white;
+  text-align: left;
+  margin-left: 10%;
 }
 
 .top {
-  border: 2px solid pink;
   background-color: white;
   color: black;
   margin-top: 10%;
   margin-left: 10%;
   position: absolute;
 }
-.topSec {
-  position: relative;
-}
+
 
 .header {
-  border: 2px solid yellow;
   background-color: white;
   color: black;
   width: 170px;
   height: 50px;
+  text-align: center;
 }
 .nav {
-border: 2px solid blue;
 background-color: white;
 color: black;
 width: 170px;
 height: 120px;
 font-size: 15px;
+text-align: center;
 }
 .nav ul{
   display: inline-block;
@@ -56,16 +68,8 @@ font-size: 15px;
   margin-left: 2%;
 }
 
-.location {
-  top: 45%;
-  position: absolute;
-  color: white;
-  text-align: left;
-  margin-left: 5%;
-}
 
 .image {
-  border: 2px solid teal;
   width: 100%;
   height: auto;
   position: static;
@@ -79,7 +83,6 @@ font-size: 15px;
 }
 
 .featuredPress {
-  border: 2px solid maroon;
   color: white;
   background-color: hotpink;
   width: 50%;
@@ -96,7 +99,6 @@ font-size: 15px;
 }
 
 .bio {
-  border: 2px solid limegreen;
   color: white;
   background-color: limegreen;
   width: 50%!important;
@@ -137,12 +139,10 @@ font-size: 15px;
     display: block;
   }
   .featuredProject {
-    border: 2px solid hotpink;
     display: block;
     background-color: white;
   }
   .nav {
-    border: 2px solid blue;
     height: 2vh;
     font-size: 13px;
     color: #444;
@@ -154,13 +154,11 @@ font-size: 15px;
     margin-right: 3px;
   }
   .header {
-      border: 2px solid yellow;
       height: 4vh;
       margin-left: 10px;
       margin-top: 15px;
   }
   .location {
-    border: 2px solid pink;
     background-color: black;
     color: white;
     width: 100%;
@@ -172,7 +170,6 @@ font-size: 15px;
     margin: 0;
   }
   .top {
-    border: 2px solid pink;
     background-color: white;
     color: black;
     width: 100%;
@@ -185,7 +182,6 @@ font-size: 15px;
 
   }
   .featuredPress {
-    border: 2px solid pink;
     background-color: white;
     color: black;
     width: 100%;
@@ -197,9 +193,9 @@ font-size: 15px;
     margin: 0;
     padding: 10px;
     margin-top: 12px;
+
   }
 .bio {
-  border: 2px solid pink;
   background-color: white;
   color: black;
   width: 100%;
